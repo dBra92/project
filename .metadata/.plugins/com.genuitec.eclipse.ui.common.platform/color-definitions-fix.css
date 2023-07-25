@@ -1924,17 +1924,24 @@ IEclipsePreferences#org-eclipse-mylyn-wikitext-ui {
 }
 IEclipsePreferences#org-eclipse-pde-ui {
 	preferences:
-		'editor.color.header_assignment=214,194,72'
-		'editor.color.externalized_string=214,194,72'
-		'editor.color.instr=164,176,192'
-		'editor.color.string=214,194,72'
-		'editor.color.tag=248,225,170'
-		'editor.color.header_osgi=231,158,60'
 		'editor.color.default=248,225,170'
-		'editor.color.header_key=231,158,60'
+		'editor.color.externalized_string=214,194,72'
+		'editor.color.externalized_string_italic=true'
+		'editor.color.header_assignment=214,194,72'
+		'editor.color.header_assignment_bold=true'
 		'editor.color.header_attributes=248,225,170'
-		'editor.color.xml_comment=131,120,110'
+		'editor.color.header_key=231,158,60'
+		'editor.color.header_key_bold=true'
+		'editor.color.header_osgi=231,158,60'
 		'editor.color.header_value=214,194,72'
+		'editor.color.header_value_italic=true'
+		'editor.color.instr=164,176,192'
+		'editor.color.instr_bold=true'
+		'editor.color.string=214,194,72'
+		'editor.color.string_italic=true'
+		'editor.color.tag=248,225,170'
+		'editor.color.tag_bold=true'
+		'editor.color.xml_comment=131,120,110'
 }
 IEclipsePreferences#org-eclipse-php-ui {
 	preferences:
@@ -2061,7 +2068,6 @@ IEclipsePreferences#org-eclipse-ui-editors {
 		'filteredSearchResultIndicationColor=26,95,140'
 		'findBlockColor=255,165,0'
 		'findIndicationColor=47,58,119'
-		'fullcoverage_color=5,71,5'
 		'hyperlinkColor=111,197,238'
 		'hyperlinkColor.SystemDefault=false'
 		'infoIndicationColor=86,194,170'
@@ -2069,12 +2075,10 @@ IEclipsePreferences#org-eclipse-ui-editors {
 		'lineNumberColor=201,113,56'
 		'linked.slave.color=66,156,255'
 		'matchingTagIndicationColor=65,65,4'
-		'nocoverage_color=95,4,4'
 		'occurrenceIndicationColor=65,65,4'
 		'org.eclipse.cdt.ui.occurrenceIndicationColor=65,65,4'
 		'org.eclipse.cdt.ui.writeOccurrenceIndicationColor=65,65,4'
 		'overrideIndicatorColor=75,116,113'
-		'partialcoverage_color=95,95,0'
 		'printMarginColor=201,113,56'
 		'pydevOccurrenceIndicationColor=65,65,4'
 		'searchResultHighlighting=false'
@@ -2174,6 +2178,12 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.jdt.ui.typeVariableDeclarationHighlighting=247,173,123'
 		'org.eclipse.jface.REVISION_NEWEST_COLOR=185,124,52'
 		'org.eclipse.jface.REVISION_OLDEST_COLOR=25,29,31'
+		'org.eclipse.pde.genericeditor.extension.editor.color.attribute=196,138,114'
+		'org.eclipse.pde.genericeditor.extension.editor.color.comment=93,134,75'
+		'org.eclipse.pde.genericeditor.extension.editor.color.header=115,130,140'
+		'org.eclipse.pde.genericeditor.extension.editor.color.quote=118,200,244'
+		'org.eclipse.pde.genericeditor.extension.editor.color.tag=86,156,214'
+		'org.eclipse.pde.genericeditor.extension.editor.color.text=207,212,216'
 		'org.eclipse.search.ui.match.highlight=73,83,90'
 		'org.eclipse.ui.editors.backgroundColor=0,0,0'
 		'org.eclipse.ui.editors.currentLineColor=7,8,8'
@@ -2182,6 +2192,10 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.ui.editors.lineNumberRulerColor=120,135,145'
 		'org.eclipse.ui.editors.printMarginColor=62,70,76'
 		'org.eclipse.ui.showkeys.backgroundColor=182,190,195'
+		'org.springframework.ide.eclipse.boot.dash.AltTextDecorColor=173,216,230'
+		'org.springframework.ide.eclipse.boot.dash.MutedTextDecorColor=205,210,214'
+		'org.springframework.ide.eclipse.boot.dash.TextDecorColor=144,238,144'
+		'org.springframework.tooling.ls.eclipse.commons.STS4BootMarkerIndicationColor=54,81,25'
 }
 IEclipsePreferences#org-eclipse-wst-css-ui {
 	preferences:
@@ -2275,6 +2289,15 @@ IEclipsePreferences#org-eclipse-wst-jsdt-ui {
 		'semanticHighlighting.methodDeclarationName.strikethrough=false'
 		'semanticHighlighting.methodDeclarationName.underline=false'
 		'tagName=164,176,192'
+}
+IEclipsePreferences#org-eclipse-wst-sse-ui {
+	preferences:
+		'content_assist_completion_replacement_background=200,200,0'
+		'content_assist_completion_replacement_foreground=194,0,0'
+		'content_assist_parameters_background=48,54,59'
+		'content_assist_parameters_foreground=235,237,239'
+		'content_assist_proposals_background=48,54,59'
+		'content_assist_proposals_foreground=235,237,239'
 }
 IEclipsePreferences#org-eclipse-wst-xml-ui {
 	preferences:
