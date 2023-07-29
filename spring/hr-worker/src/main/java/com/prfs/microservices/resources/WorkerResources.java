@@ -37,14 +37,13 @@ public class WorkerResources { // API basica para rodar na web
 	@GetMapping(value = "/{id}") // Para reconhecer o id na requisição
 	public ResponseEntity<Worker> findById(@PathVariable Long id) {
 
-		/*
 		try {
 			Thread.sleep(4000L);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		*/
+
 		// N º da porta que irá rodar
 		logger.info("PORT = " + env.getProperty("local.server.port"));
 
