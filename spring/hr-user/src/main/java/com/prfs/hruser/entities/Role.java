@@ -1,4 +1,4 @@
-package com.prfs.hrconfigserver.entities;
+package com.prfs.hruser.entities;
 
 import java.io.Serializable;
 

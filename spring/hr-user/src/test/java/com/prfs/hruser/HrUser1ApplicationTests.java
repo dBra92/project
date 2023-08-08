@@ -1,10 +1,10 @@
-package com.prfs.hrconfigserver;
+package com.prfs.hruser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HrUserApplicationTests {
+class HrUser1ApplicationTests {
 
 	@Test
 	void contextLoads() {

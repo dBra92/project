@@ -1,4 +1,4 @@
-package com.prfs.hrconfigserver;
+package com.prfs.hruser;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
