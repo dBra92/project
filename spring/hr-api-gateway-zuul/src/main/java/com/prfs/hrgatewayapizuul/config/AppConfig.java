@@ -11,13 +11,13 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @Configuration
 public class AppConfig {
 	
-	@Value("${jwt.secret}")
-	private String jSecret;
+	//@Value("${jwt.secret}")
+	//private String jSecret;
 	
 	@Bean
 	JwtAccessTokenConverter jATConverter() {
 		JwtAccessTokenConverter tConverter = new JwtAccessTokenConverter();
-		tConverter.setSigningKey(jSecret);
+		//tConverter.setSigningKey(jSecret);
 		return tConverter;
 	}
 
